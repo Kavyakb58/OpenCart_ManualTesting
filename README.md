@@ -1,45 +1,24 @@
-# OpenCart Manual Testing
-This repository contains comprehensive manual testing documentation for the OpenCart e-commerce platform. The goal of this project is to apply and demonstrate my manual testing skills through a real-world, feature-rich web application.
+# 🛒 OpenCart Manual Testing
+
+This repository contains detailed manual testing documentation for the OpenCart e-commerce platform. The purpose of this project is to apply and showcase my manual testing skills through a real-world web application.
+
+---
+
+## 🎯 Objective
+
+To simulate a real-world QA project using OpenCart’s demo site, design comprehensive test cases across major modules, report bugs with severity classification, and document the entire manual testing workflow using Excel and GitHub. This project helps demonstrate practical, job-ready QA skills.
+
+---
 
 ## 🧪 Project Overview
 
 - **Application Under Test**: [OpenCart](https://demo.opencart.com/)  
 - **Testing Type**: Manual Testing  
 - **Tester**: Kavya K B  
-- **Focus Areas**: UI Testing, Functional Testing, Input Validation, Boundary Testing, and User Flow Verification  
-- **Skills Applied**:
-  - Test Scenario & Test Case Design
-  - Requirement Analysis
-  - Bug Identification & Reporting
-  - Severity & Priority Classification
-  - Test Documentation using Excel
-  - Functional Flow Understanding
-  - Manual Execution & Validation
+- **Focus Areas**: UI Testing, Functional Testing, Input Validation, Boundary Testing, and User Flow Verification.  
+- **Skills Used**: Test Case Design, Test Scenario Writing, Bug Reporting, Severity/Priority Classification, Excel Documentation, Test Data Creation
 
-## 🎯 Purpose of This Project
-
-This project is part of my self-learning journey as a QA enthusiast. My goal was to independently explore a live application, identify its key functionalities, prepare test cases, and document the results using manual testing techniques.
-
-I selected OpenCart because it is a publicly available e-commerce platform with multiple real-world features, ideal for practicing end-to-end testing.
-
-## 👩‍💻 My Role & Responsibilities
-
-As the sole QA tester for this project, I was responsible for:
-
-- Exploring the application and identifying important modules for testing.
-- Understanding the functionality of each feature from a user’s perspective.
-- Writing detailed test cases with scenario IDs, descriptions, preconditions, test data, steps, expected results, and severity levels.
-- Executing all test cases manually and recording the actual results.
-- Logging potential issues and categorizing them by severity and priority.
-- Maintaining organized documentation in Excel format for each module.
-
-## 💡 My Learning & Experience
-
-- I faced challenges while understanding the flow of some modules like **Wishlist** and **Checkout**, especially when it came to prerequisites (e.g., user login, product selection).
-- I had to test various input combinations manually to ensure coverage for **positive and negative** scenarios.
-- It helped me improve my ability to think from both **user** and **tester** perspectives.
-- Through this project, I also practiced identifying UI issues, functional bugs, and areas lacking proper validation.
-- This hands-on experience gave me more confidence in preparing and structuring real-world test cases effectively.
+---
 
 ## 📁 Test Case Modules
 
@@ -55,54 +34,110 @@ As the sole QA tester for this project, I was responsible for:
 | Wishlist          | Wishlist functionality and constraints       |
 | Checkout          | Billing, shipping, and order confirmation    |
 
-Each module includes:
-- Test Scenario ID
-- Test Case ID
-- Test Description
-- Preconditions
-- Test Data
-- Test Steps
-- Expected Result (ER)
-- Actual Result (AR)
-- Status
-- Severity & Priority
-- Comments
+---
 
-## 📌 Tools Used
-
-- Excel (for test case documentation)
-- Web Browser (for UI and functional testing)
-- GitHub (for version control and portfolio sharing)
-
-## 🐞 Defect Tracking
-
-Any bugs identified during testing are logged with:
-- Summary
-- Steps to Reproduce
-- Screenshots (if needed)
-- Expected vs Actual Result
-- Severity & Priority
-
-## ✅ Sample Test Case Format
+## ✅ Test Case Format Used
 
 | Test Scenario ID | Test Case ID | Test Case Description       | Precondition        | Test Data             | Test Steps                        | Expected Result           | Actual Result | Status | Severity | Comments          |
 |------------------|--------------|-----------------------------|---------------------|------------------------|------------------------------------|---------------------------|----------------|--------|----------|-------------------|
 | TS_01            | TC_01        | Verify valid login          | User on login page  | Valid username/password | 1. Enter valid credentials<br>2. Click login | User should log in successfully | User logged in  | Pass   | Major    | Working as expected |
-| TS_02            | TC_02        | Empty field validation      | User on register page | Leave all fields blank | 1. Click register without input   | Error messages displayed  | Error messages shown | Pass   | Medium   | Validation proper  |
 
-## 📂 File Structure
+---
 
-OpenCart_ManualTesting/ ├── Login.xlsx ├── Register.xlsx ├── ForgotPassword.xlsx ├── Logout.xlsx ├── Search.xlsx ├── ProductDisplay.xlsx ├── AddToCart.xlsx ├── Wishlist.xlsx ├── Checkout.xlsx
+## 📊 Testing Summary
+
+- ✅ **Total Test Cases Written**: 182  
+- 🐞 **Total Bugs Reported**: 10  
+
+**Bug Severity Breakdown:**
+- 🔴 Critical: 5  
+- 🟠 Major: 3  
+- 🟡 Minor: 1  
+- ⚪ Trivial/Info: 1  
+
+---
+
+## 🛠️ Tools Used
+
+- Microsoft Excel (for test case documentation)  
+- OpenCart Demo Environment (Web Application)  
+- GitHub (Version Control and Showcase)
+
+---
+
+## 📂 Repository Structure
+
+OpenCart_ManualTesting/
+├── Login.xlsx
+├── Register.xlsx
+├── ForgotPassword.xlsx
+├── Logout.xlsx
+├── Search.xlsx
+├── ProductDisplay.xlsx
+├── AddToCart.xlsx
+├── Wishlist.xlsx
+├── Checkout.xlsx
+
+
+Each `.xlsx` file contains detailed test scenarios, test cases, test data, actual vs expected results, severity/priority, and comments. This structure allows easy access for reviewing each module’s test coverage.
+
+---
+
+## 👩‍💻 My Role in the Project
+
+As a QA enthusiast, I independently designed and executed manual testing for the OpenCart platform. I was responsible for:
+
+- Analyzing the application's features and user flows.
+- Designing test scenarios and writing detailed test cases in Excel.
+- Executing tests across various flows and recording actual outcomes.
+- Identifying and reporting bugs with proper severity classification.
+- Organizing and uploading all documentation to GitHub for public review.
+
+This hands-on testing effort was done as part of my QA learning journey and to demonstrate practical, job-ready skills.
+
+---
+
+## ⚙️ Challenges Faced
+
+- Initially, I struggled to apply proper testing techniques (like boundary value, equivalence partitioning) while designing test cases.
+- Creating effective and varied test data sets was confusing at first, especially for input validation scenarios.
+- Understanding complex e-commerce flows like checkout and wishlist management required time and exploration.
+- Classifying bugs by severity and priority without real-time team discussions helped me learn independent judgment.
+- Structuring all documentation in a clean, organized format took iteration and attention to detail.
+
+---
+
+## 📚 Learning Outcomes
+
+- Developed a strong foundation in manual testing processes and techniques.
+- Improved in writing test cases using real-world flows and various validation methods.
+- Practiced independent testing and judgment while simulating a real QA workflow.
+- Understood how to track, prioritize, and report bugs with clarity and structure.
+
+---
+
+## 🚀 Future Improvements
+
+- Automate critical user flows (Login, Register, Checkout) using Selenium WebDriver.
+- Integrate JIRA-style bug reporting format for better traceability.
+- Test across different browsers and devices using tools like BrowserStack.
+
+---
 
 ## 🙋‍♀️ About Me
 
-I’m **Kavya K B**, an aspiring QA professional with hands-on experience in manual testing. I created this project as part of my QA learning journey and to showcase practical testing skills.
+I’m **Kavya K B**, a BCA graduate and aspiring QA professional with hands-on experience in manual testing. I created this project as part of my learning journey to improve, showcase, and strengthen my testing skills using real-world applications.
+
+---
 
 ## 📬 Contact
 
-- GitHub: [@kavyakb58](https://github.com/Kavyakb58)
+- GitHub: [@kavyakb58](https://github.com/Kavyakb58)  
 - LinkedIn: [@kavyakb58](https://linkedin.com/in/kavyakb58)
 
 ---
 
-⭐️ If you found this helpful, feel free to star the repo!
+⭐️ *If you found this project helpful, feel free to star the repo!*
+
+
+
