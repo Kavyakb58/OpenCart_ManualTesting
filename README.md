@@ -2,8 +2,7 @@
 
 This repository contains detailed manual testing documentation for the OpenCart e-commerce platform. The purpose of this project is to apply and showcase my manual testing skills through a real-world web application.
 
-## 🎯 Objective
-
+🎯 Objective
 To simulate a real-world QA project using OpenCart’s demo site, design comprehensive test cases across major modules, report bugs with severity classification, and document the entire manual testing workflow using Excel and GitHub. This project helps demonstrate practical, job-ready QA skills.
 
 ---
@@ -60,24 +59,6 @@ To simulate a real-world QA project using OpenCart’s demo site, design compreh
 - Microsoft Excel (for test case documentation)  
 - OpenCart Demo Environment (Web Application)  
 - GitHub (Version Control and Showcase)
-
----
-
-## 📂 Repository Structure
-
-OpenCart_ManualTesting/
-├── Login.xlsx
-├── Register.xlsx
-├── ForgotPassword.xlsx
-├── Logout.xlsx
-├── Search.xlsx
-├── ProductDisplay.xlsx
-├── AddToCart.xlsx
-├── Wishlist.xlsx
-├── Checkout.xlsx
-
-
-Each `.xlsx` file contains detailed test scenarios, test cases, test data, actual vs expected results, severity/priority, and comments. This structure allows easy access for reviewing each module’s test coverage.
 
 ---
 
