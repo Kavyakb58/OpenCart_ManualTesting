@@ -2,7 +2,7 @@
 
 This repository contains detailed manual testing documentation for the OpenCart e-commerce platform. The purpose of this project is to apply and showcase my manual testing skills through a real-world web application.
 
-🎯 Objective
+🎯 Objective : 
 To simulate a real-world QA project using OpenCart’s demo site, design comprehensive test cases across major modules, report bugs with severity classification, and document the entire manual testing workflow using Excel and GitHub. This project helps demonstrate practical, job-ready QA skills.
 
 ---
